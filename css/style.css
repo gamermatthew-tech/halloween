@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Creepster', cursive;
+}
+
+body {
+   background-image: url(../images/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+/* heading styles */
+h1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px 0 5px;
+   font-size: 100px;
+}
+
+p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+}
+
+main {
+   margin: 250px 0;
+   text-align: center;
+}
+
+/* category styles */
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0 auto;
+   align-items: flex-start;
+   max-width: 1200px;
+}
+
+.category {
+   flex: 1;
+   margin: 10px;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.8);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   text-align: center;
+   border-radius: 10px;
+}
+
+.category h2 {
+   font-size: 25px;
+}
+
+.category li {
+   list-style: none;
+}
+
+/* Image styles */
+.category img {
+   width: 200px;
+}
+
+img {
+   transition: transform 0.5s ease;
+}
+
+img:hover {
+   transform: scale(1.2) rotate(30deg);
+}
+
+/* Button styles */
+button {
+   background-color: #f39c12;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+button a {
+   color: white;
+   text-decoration: none;
+}
+
+button:hover {
+   background-color: #e67e22;
+}
